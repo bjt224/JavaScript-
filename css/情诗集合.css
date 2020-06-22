@@ -1,0 +1,53 @@
+body {
+	background: -webkit-linear-gradient(top, #FFE6FA, #E3FDF5);
+	/*谷歌*/
+	background: -moz-linear-gradient(top, #FFE6FA, #E3FDF5);
+	/*火狐*/
+	background: linear-gradient(to bottom,#FFE6FA,#E3FDF5);
+	/*IE*/
+	
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color: blue;
+}
+#nav,#menu {
+	width: 100%;
+	margin-left: -10px;
+	padding-left: 500px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	font-size: 26px;
+	font-family: "楷体";
+	}
+#nav {
+	height: 60px;
+}
+#menu {
+	display: none;
+	padding-bottom: 10px;
+	padding-left: 400px;
+	background: #fff;
+}
+#menu ul li a.toitem1 {
+	color: blue;
+}
+ul li {
+	list-style: none;
+	float: left;
+	width: 150px;
+	line-height: 50px;
+}
+#middle {
+	width: 500px;
+	margin: 0 auto;
+}
+#middle div p {
+	margin-left: 50px;
+}
+.btn {
+	margin-left: 200px;
+}

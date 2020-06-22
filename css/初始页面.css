@@ -1,0 +1,67 @@
+body {
+	width: 99%;
+	height: 1000px;
+	background: -webkit-linear-gradient(top, #f3e7e9, #e3eeff);
+	/*谷歌*/
+	background: -moz-linear-gradient(top, #f3e7e9, #e3eeff);
+	/*火狐*/
+	background: linear-gradient(to bottom,#f3e7e9,#e3eeff);
+	/*IE*/
+	font-family: "楷体";
+	font-size: 26px;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #3399CC;
+}
+#menu{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #aaa;
+}
+ul li{
+	list-style: none;
+	float: left;
+	width: 250px;
+}
+#menu ul li{
+	width: 80px;
+	border-right: 1px solid #aaa;
+	margin-right: 20px;
+}
+#menu ul li:nth-child(1){
+	width: 150px;
+	border-right:0;
+}
+#menu ul li:nth-last-child(1){
+	border-right: 0;
+}
+#item{
+	width: 1500px;
+	text-align:center;
+	margin: 100px auto;
+	
+}
+#item div li{
+	height: 350px;
+	margin-right: 30px;
+}
+.item2,.item3,.item4,.item5,.item6{
+	display: none;
+}
+.fontColor{
+	color: #aaa;
+	font-size: 20px;
+}
+#adv{
+	position: absolute;
+}
+#closeAdv{
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 1px solid #fff;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>register</title>
+		<!--<link href="css/css.css" type="text/css" rel="stylesheet" />-->
+		<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+		<!--font-awesome 核心我CSS 文件-->
+		<link href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Bootstrap 核心 JavaScript 文件 -->
+		<!--<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
+		<script src="js/jq.js"></script>
+		<script src="js/user.js"></script>
+		<link href="css/css.css" type="text/css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<!--<form id="register" class="register-form">
+			<table>
+				<caption>注册</caption>
+				<tr>
+					<td>
+						<input type="text" id="register_name" name="register_name" placeholder="昵称" onblur="checkUser()" />
+					</td>
+					<td><div id="fail_user"></div></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="password" id="register_pwd" name="register_pwd" placeholder="密码" onblur="checkPwd()" />
+					</td>
+					<td><div id="fail_pwd"></div></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="password" id="re_pwd" name="re_pwd" placeholder="确认密码" onblur="checkRepwd()" />
+					</td>
+					<td><div id="fail_rePwd"></div></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="email" id="register_email" name="register_email" placeholder="邮箱" onblur="checkEmail()"/>
+					</td>
+					<td><div id="fail_email"></div></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="button" id="register_btn" value="注册" onclick="return checkAll()" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<a href="login.html">已有账号,直接登录</a>
+					</td>
+				</tr>
+			</table>
+		</form>-->
+		
+		<div class="form row">
+			<form class="form-horizontal col-sm-offset-3 col-md-offset-3" id="register">
+				<h3 class="form-title">注册</h3>
+				<div class="col-sm-9 col-md-9">
+					<div class="form-group">
+						<i class="fa fa-user fa-lg"></i>
+						<input class="form-control required" type="text" id="register_name" name="register_name" placeholder="昵称" autofocus="autofocus" onblur="checkUser()"/>
+						<div id="fail_user" class="fail_msg"></div>
+					</div>
+					<div class="form-group">
+						<i class="fa fa-lock fa-lg"></i>
+						<input class="form-control required" type="password" id="register_pwd" name="register_pwd" placeholder="密码" onblur="checkPwd()"/>
+						<div id="fail_pwd" class="fail_msg"></div>
+					</div>
+					<div class="form-group">
+						<i class="fa fa-check fa-lg"></i>
+						<input class="form-control required" type="password" id="re_pwd" name="re_pwd" placeholder="确认密码" onblur="checkRepwd()"/>
+						<div id="fail_rePwd" class="fail_msg"></div>
+					</div>
+					<div class="form-group">
+						<i class="fa fa-envenlope fa-lg"></i>
+						<input class="form-control email" type="email" id="register_email" name="register_email" placeholder="邮箱" onblur="checkEmail()"/>
+						<div id="fail_email" class="fail_msg"></div>
+					</div>
+					<div class="form-group">
+							<a href="login.html">已有账号>>登录</a>
+						</div>
+					<div class="form-group">
+						<input class="btn btn-success pull-right" type="button" id="register_btn" value="注册" onclick="return checkAll()" />
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

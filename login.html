@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		
+		<!--<link href="css/css.css" type="text/css" rel="stylesheet" />-->
+		<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+		<!--font-awesome 核心我CSS 文件-->
+		<link href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Bootstrap 核心 JavaScript 文件 -->
+		<!--<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
+		<script src="js/jq.js"></script>
+		<script src="js/user.js"></script>
+		<link href="css/css.css" type="text/css" rel="stylesheet" />
+
+	</head>
+
+	<body>
+		
+		<div class="container">
+			<div class="form row">
+				<form class="form-horizontal col-sm-offset-3 col-md-offset-3" id="userLogin">
+					<h3 class="form-title">登录</h3>
+					<div class="col-sm-9 col-md-9">
+						<div class="form-group">
+							<i class="fa fa-user fa-lg"></i>
+							 <input class="form-control required" type="text" name="userName" id="userName" placeholder="用户名" autofocus="autofocus" maxlength="20"/>
+						</div>
+						<div class="form-group">
+							<i class="fa fa-lock fa-lg"></i>
+							 <input class="form-control required" type="password" name="userPwd" id="userPwd" placeholder="密码"  maxlength="10"/>
+						</div>
+							<div id="fail_msg" class="fail_msg"></div>
+						<div class="form-group">
+							<a href="register.html">去注册</a>
+						</div>
+						<div class="form-group">
+							<input class="btn pull-right" type="button" name="login " value="登陆 " id="Login_Btn "  onclick="Login()"/>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

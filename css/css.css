@@ -1,0 +1,40 @@
+			body {
+				background: -webkit-linear-gradient(left, #fbfbfb, #ebedee);
+				background: -moz-linear-gradient(left, #fbfbfb, #ebedee);
+				background: linear-gradient(left, #fbfbfb, #ebedee);
+				background-size: cover;
+				font-size: 16px;
+			}
+			
+			.form {
+				background: rgba(255, 255, 255, 0.2);
+				width: 400px;
+				margin: 100px auto;
+			}
+			
+			#userLogin {
+				display: block;
+			}
+			
+			.fa {
+				display: inline-block;
+				top: 27px;
+				left: 6px;
+				position: relative;
+				color: #ccc;
+			}
+			
+			.fail_msg {
+				font-size: 14px;
+				color: darkred;
+				margin-bottom: 5px;
+			}
+			
+			input[type="text"],
+			input[type="password"] {
+				padding-left: 26px;
+			}
+			
+			a {
+				text-decoration: none;
+			}

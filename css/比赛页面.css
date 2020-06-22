@@ -1,0 +1,48 @@
+body{
+	background: linear-gradient(180deg, #FFE6FA, #E3FDF5);
+	background: -webkit-linear-gradient(top, #FFE6FA, #E3FDF5);
+	/*谷歌*/
+	background: -moz-linear-gradient(top, #FFE6FA, #E3FDF5);
+	/*火狐*/
+	background: linear-gradient(to bottom,#FFE6FA,#E3FDF5);
+	/*IE*/
+	}
+div{
+	width: 750px;
+	margin: 0 auto;
+	}
+h1{
+	font-family: "楷体";
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+	}
+h3{
+	color: red;
+	font-family: "楷体";
+	font-size: 26px;
+	}
+h4{
+	font-family: "楷体";
+	font-size: 24px;
+	}
+p{
+	font-family: "楷体";
+	font-size: 22px;
+	text-indent: 2em;
+	}
+#timer{
+	font-family: "楷体";
+	font-size: 30px;
+	font-weight: 900;
+	color: red;
+	text-indent: 1em;
+	}
+button{
+	width: 150px;
+	height: 40px;
+	font-family: "楷体";
+	font-size: 26px;
+	font-weight: 800;
+	color: cornflowerblue;
+	}

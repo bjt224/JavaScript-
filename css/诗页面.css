@@ -1,0 +1,123 @@
+body {
+	width: 99%;
+	height: 1300px;
+	background: -webkit-linear-gradient(top, #f3e7e9, #e3eeff);
+	/*谷歌*/
+	background: -moz-linear-gradient(top, #f3e7e9, #e3eeff);
+	/*火狐*/
+	background: linear-gradient(to bottom,#f3e7e9,#e3eeff);
+	/*IE*/
+	font-family: "楷体";
+	font-size: 20px;
+}
+a{
+	color: #000;
+	text-decoration: none;
+	margin: 5px;
+}
+a:hover{
+	color: lightsalmon;
+}
+#content{
+	width: 900px;
+	margin: 0 auto;
+}
+#left{
+	width: 600px;
+	height: 1300px;
+	float: left;
+	border-right: 1px solid #aaa;
+	margin-right: 20px;
+}
+#left_header table{
+	width: 450px;
+}
+#left_header table td:nth-child(1){
+	width: 220px;
+}
+#left_header table td img{
+	border: 2px solid #ccc;
+}
+#left_header table td input{
+	margin-left: 2px;
+}
+#left_header table td a{
+	margin: 0;
+}
+#left_middle p{
+	margin-bottom: 5px;
+	margin-left: 100px;
+	text-align: center;
+}
+#poem{
+	width: 500px;
+}
+#translation{
+	width: 500px;
+	display: none;
+}
+#left_middle,#left_footer{
+	width: 550px;
+}
+#left_footer span{
+	color: #aaa;
+	font-size: 20px;
+}
+#left_footer h5{
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+}
+#left_footer .comment{
+	border-bottom: 1px solid #aaa;
+	font-size: 26px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+#text{
+	width:540px;
+	color:#bbb;
+	outline-color:#39C;
+	overflow-y: hidden;
+}
+#comment_btn{
+	float: right;
+	margin-right: 5px;
+}
+.comment_content p{
+	border-top: 1px dashed #ccc;
+	font-size: 15px;
+	padding: 10px;
+	word-break: break-all;
+	word-break: break-word;
+	white-space: pre-wrap;
+	overflow: hidden;
+}
+.comment_content p:nth-child(1){
+	border-top: 0px dashed #ccc;
+}
+#right{
+	padding: 20px;
+}
+#right h4{
+	padding: 0;
+	margin: 0;
+}
+#right table{
+	width: 200px;
+	margin-bottom: 30px;
+}
+#right table td{
+	padding-bottom: 10px;
+}
+#right table td a p{
+	width: 140px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#right table.likepoem td:nth-child(2){
+	width: 50px;
+}
+#btn input:nth-child(1){
+	margin-left: 100px;
+}
